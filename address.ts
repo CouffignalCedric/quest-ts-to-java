@@ -1,6 +1,9 @@
 export class Address {
-    number: string;
-    street: string;
-    city: string;
-    country: string;
+    public number: string;
+    public street: string;
+    public city: string;
+    public country: string;
+   
+
+
 }
