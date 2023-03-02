@@ -1,30 +1,27 @@
+import java.util.Date;
+import java.util.List;
+
 public class User {
     // birthdate: Date;
     // size: number;
     // photos: Photo[];
     // address: Address;  
-    public String birthdate;
+    public Date birthdate;
     public int size;
-    public Photo photos;
+    public List<Photo> photos;
     public Address address;
 
-    public User(String birthDate,int size, Photo photos, Address address) {
-        this.birthdate = "birthdate";
-        this.size = size;
-        this.photos = photos;
-        this.address = address;
-    }
 
-    public String getBirthdate() {
-        return birthdate;
+    public Date getBirthdate() {
+        return this.birthdate;
     }
 
     public int getSize() {
         return size;
     }
 
-    public Photo getPhoto() {
-        return getPhoto();
+    public List<Photo> getPhoto() {
+        return this.photos;
     }
 
     public Address getAddress() {

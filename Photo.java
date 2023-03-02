@@ -3,10 +3,10 @@ public class Photo {
     // filename:string;
     // width: number;
     // height: number;
-    public String url;
-    public String filename;
-    public int width;
-    public int height;
+   private String url;
+   private String filename;
+   private int width;
+   private int height;
 
     //constructor
 

@@ -3,10 +3,10 @@ public class Address {
     // street: string;
     // city: string;
     // country: string;
-    public String number;
-    public String street;
-    public String city;
-    public String country;
+    private String number;
+    private String street;
+    private String city;
+    private String country;
     
  // constructor
  public Address(String number ){
@@ -22,7 +22,7 @@ public String getStreet(){
     return this.street;
 }
 public String getCity(){
-    return this.street;
+    return this.city;
 }
 public String getCountry(){
     return this.country;
